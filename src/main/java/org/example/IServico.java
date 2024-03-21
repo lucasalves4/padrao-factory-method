@@ -1,2 +1,8 @@
-package org.example;public interface IServico {
+package org.example;
+
+public interface IServico {
+
+    String executar();
+    String cancelar();
+    String ajustar();
 }
